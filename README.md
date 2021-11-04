@@ -4,7 +4,7 @@
 
 The objective of this analysis is to help Pewlett Hackard company, which has thousands of employees and has been in business for a long time. Many employees of the baby boomer generation will soon reach the retirement, leaving thousands of jobs available "silver tsunami".
 
-The database we have consists of 6 files in CSV that we will organize in SQL using the pgAdmin program. It is necessary for the company to identify the profile and number of people close to retirement.
+We have to create a database of 6 base files in CSV that we will organize in SQL using the pgAdmin program. It is necessary for the company to identify the profile and number of people close to retirement.
 
 For this specific challenge, we seek to determine the number of employees to retire by title, as well as to choose the employees who are eligible to participate in a mentoring program.
 

@@ -12,7 +12,7 @@ For this specific challenge, we seek to determine the number of employees to ret
 
 1) The Number of Retiring Employees by Title
 
-![](https://github.com/Jponce25/Pewlett-Hackard-Analysis/blob/d86d3e040489157f628e1d856172449172add9b1/Images/1.png)
+<img src="https://github.com/Jponce25/Pewlett-Hackard-Analysis/blob/d86d3e040489157f628e1d856172449172add9b1/Images/1.png" width="290">
 
 - According to the data, almost a third of all employees (90,398 of 300,024) will be retiring soon.
 
@@ -24,7 +24,7 @@ For this specific challenge, we seek to determine the number of employees to ret
 
 The data presented in this way does not tell us much, so we perform a transformation using the count funtion by tittle.
 
-![](https://github.com/Jponce25/Pewlett-Hackard-Analysis/blob/d86d3e040489157f628e1d856172449172add9b1/Images/3.png)
+<img src="https://github.com/Jponce25/Pewlett-Hackard-Analysis/blob/d86d3e040489157f628e1d856172449172add9b1/Images/3.png" width="190">
 
 - There are only 1,549 candidates for the mentoring program, this represents only 1.7% of the total number of people close to retirement.
 

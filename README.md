@@ -36,8 +36,10 @@ The data presented in this way does not tell us much, so we perform a transforma
 
 We can perform a query to get the total number of employees who are about to retire.
 
+```
 SELECT SUM(count) as employees_to_be_filled 
 FROM retiring_titles;
+```
 
 ![](https://github.com/Jponce25/Pewlett-Hackard-Analysis/blob/d86d3e040489157f628e1d856172449172add9b1/Images/4.png)
 
@@ -47,6 +49,7 @@ We can see that there is a total of 90,398 positions that should be filled.
 
 Performing a query on our mentorship_eligibility table we can get de number of retirement-ready employees by departments to mentor the next generation.
 
+```
 SELECT COUNT(first_name),title 
 INTO cuentatitle_table
 FROM mentorship_eligibilty
@@ -54,13 +57,16 @@ GROUP BY title
 ORDER BY count DESC;
 
 SELECT * FROM cuentatitle_table;
+```
 
 ![](https://github.com/Jponce25/Pewlett-Hackard-Analysis/blob/d86d3e040489157f628e1d856172449172add9b1/Images/5.png)
 
 Also, we can get the number of the total available mentors. 
 
+```
 SELECT SUM(COUNT) as total
 FROM cuentatitle_table;
+```
 
 ![](https://github.com/Jponce25/Pewlett-Hackard-Analysis/blob/d86d3e040489157f628e1d856172449172add9b1/Images/6.png)
 
